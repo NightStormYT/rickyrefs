@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'bignoodletitlingoblique';
+    src: url('big_noodle_titling_oblique.ttf');
+}
+.box {
+    width: 200px;
+    height: 320px;
+    background-color: #171927;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+}
+
+body {
+    font-family: 'bignoodletitlingoblique';
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.title {
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #171927;
+    border-bottom: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+    color: #FFFFFF;
+    width: 75%;
+    float: left;
+}
+.info1 {
+    background-color: lime;
+    float: left;
+    width: 25%;
+    border-bottom: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+}
+
+.info2 {
+    background-color: lime;
+    float: left;
+    width: 25%;
+    border-top: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+}
+.refcode {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #171927;
+    border-top: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+    color: #FFFFFF;
+    width: 50%;
+    float: left;
+}
+.info3 {
+    background-color: lime;
+    float: right;
+    width: 25%;
+    border-top: 5px solid transparent;
+    border-color: #f08c8c;
+    border-image-slice: 1;
+}
